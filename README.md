@@ -18,7 +18,7 @@ To design a system where:
 - Results are returned with **match confidence**
 
 ## Project Structure
-'''
+
 FaceRecognition_Sample_Programs/
 ├── python/
 │   └── missing_person.py
@@ -41,7 +41,7 @@ FaceRecognition_Sample_Programs/
 │   └── face_detection.py
 └── deepface/
     └── face_verify.py
-'''
+
 ### Run
 
  ## JavaScript – Missing Person Search Logic
