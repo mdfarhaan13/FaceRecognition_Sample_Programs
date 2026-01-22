@@ -52,16 +52,8 @@ FaceRecognition_Sample_Programs/
 └── face_verify.py
 
 ### Run
-```bash
-python missing_person.py
-Future Scope
-Database integration
 
-API exposure
-
-AI result linkage
-
-🟨 JavaScript – Missing Person Search Logic
+ JavaScript – Missing Person Search Logic
 Simulates frontend-side search functionality.
 
 Features
