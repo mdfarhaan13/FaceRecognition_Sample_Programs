@@ -16,3 +16,36 @@ To design a system where:
 - Users can **search for missing persons**
 - Uploaded images are **matched using AI-based face recognition**
 - Results are returned with **match confidence**
+
+- ## Project Structure
+
+FaceRecognition_Sample_Programs/
+│
+├── python/
+│ └── missing_person.py
+│
+├── javascript/
+│ └── search_missing_person.js
+│
+├── html-css/
+│ ├── index.html
+│ └── style.css
+│
+├── react/
+│ └── App.js
+│
+├── django/
+│ └── api/
+|   └──
+│
+├── fastapi/
+│ └── main.py
+│
+├── postgre/
+│ └── schema.sql
+│
+├── opencv/
+│ └── face_detection.py
+│
+└── deepface/
+└── face_verify.py
