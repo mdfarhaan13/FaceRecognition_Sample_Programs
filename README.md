@@ -53,7 +53,7 @@ FaceRecognition_Sample_Programs/
 
 ### Run
 
- # JavaScript – Missing Person Search Logic
+ ## JavaScript – Missing Person Search Logic
 Simulates frontend-side search functionality.
 
 Features
@@ -61,60 +61,46 @@ In-memory missing person records
 
 Case-insensitive name search
 
-Run
+# Run
 node search_missing_person.js
 
 
-# HTML & CSS – User Interface
+## HTML & CSS – User Interface
 Provides a basic UI layout for the system.
 
-Features
+# Features
 Simple landing page
 
 Buttons for reporting and searching
 
-Run
-'''bash Open index.html in a browser.
+# Run
+ Open index.html in a browser.
 
 
-## Backend connection
-
-⚛️ React – Frontend Component
+ ## React – Frontend Component
 Basic React component for user interaction.
 
-Features
+# Features
 Functional component
 
 Clean JSX structure
 
-Run
+# Run
 npm install
 npm start
-Future Scope
-Image upload
 
-API calls
-
-Display match confidence
-
-🧪 Django REST Framework – API Layer
+## Django REST Framework – API Layer
 Provides RESTful endpoints for backend communication.
 
-Features
+# Features
 JSON-based API
 
 Clean endpoint design
 
-Run
+# Run
 python manage.py runserver
-Future Scope
-Authentication
 
-CRUD operations
-
-Database integration
-
-⚡ FastAPI – High Performance Backend
+## FastAPI – High Performance Backend
 Acts as a lightweight backend service.
 
 Features
@@ -122,55 +108,43 @@ Fast execution
 
 Automatic Swagger UI
 
-Run
+# Run
 uvicorn main:app --reload
+
 Swagger:
 
 http://127.0.0.1:8000/docs
-Future Scope
-Image upload endpoint
 
-Face recognition pipeline
-
-PostgreSQL integration
-
-🗄️ PostgreSQL – Database Schema
+## PostgreSQL – Database Schema
 Defines relational database structure.
 
-Features
+# Features
 Structured missing person table
 
 Sample data insertion
 
-Run
+# Run
 psql -U username -d database_name -f schema.sql
-Future Scope
-Face embedding storage
 
-Indexing for faster search
-
-👁️ OpenCV – Face Detection
+## OpenCV – Face Detection
 Detects faces from images using classical computer vision.
 
-Features
+# Features
 Haar Cascade-based face detection
 
 Real-time support
 
-Run
+# Run
 python face_detection.py
-Algorithm Used
+
+# Algorithm Used
 Haar Cascade Classifier
 
-Future Scope
-CNN-based detectors
 
-Multi-face detection
-
-🧠 DeepFace / FaceNet – Face Recognition
+## DeepFace / FaceNet – Face Recognition
 Verifies whether two face images belong to the same person.
 
-Features
+# Features
 Pre-trained deep learning models
 
 High accuracy embeddings
@@ -178,7 +152,8 @@ High accuracy embeddings
 Run
 pip install deepface
 python face_verify.py
-Model Used
+
+# Model Used
 FaceNet (128-dimensional embeddings)
 
 
