@@ -18,8 +18,7 @@ To design a system where:
 - Results are returned with **match confidence**
 
 ## Project Structure
-
-''' text
+'''text
 FaceRecognition_Sample_Programs/
 ├── python/
 │   └── missing_person.py
