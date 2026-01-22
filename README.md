@@ -17,7 +17,7 @@ To design a system where:
 - Uploaded images are **matched using AI-based face recognition**
 - Results are returned with **match confidence**
 
-- ## Project Structure
+## Project Structure
 
 FaceRecognition_Sample_Programs/
 │
