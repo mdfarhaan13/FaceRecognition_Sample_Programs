@@ -36,7 +36,8 @@ FaceRecognition_Sample_Programs/
 │
 ├── django/
 │ └── api/
-|   └──
+|   └──urls.py
+|   └──views.py
 │
 ├── fastapi/
 │ └── main.py
@@ -49,3 +50,150 @@ FaceRecognition_Sample_Programs/
 │
 └── deepface/
 └── face_verify.py
+
+### Run
+```bash
+python missing_person.py
+Future Scope
+Database integration
+
+API exposure
+
+AI result linkage
+
+🟨 JavaScript – Missing Person Search Logic
+Simulates frontend-side search functionality.
+
+Features
+In-memory missing person records
+
+Case-insensitive name search
+
+Run
+node search_missing_person.js
+Future Scope
+API-based search
+
+React integration
+
+🌐 HTML & CSS – User Interface
+Provides a basic UI layout for the system.
+
+Features
+Simple landing page
+
+Buttons for reporting and searching
+
+Run
+Open index.html in a browser.
+
+Future Scope
+Responsive design
+
+Form handling
+
+Backend connection
+
+⚛️ React – Frontend Component
+Basic React component for user interaction.
+
+Features
+Functional component
+
+Clean JSX structure
+
+Run
+npm install
+npm start
+Future Scope
+Image upload
+
+API calls
+
+Display match confidence
+
+🧪 Django REST Framework – API Layer
+Provides RESTful endpoints for backend communication.
+
+Features
+JSON-based API
+
+Clean endpoint design
+
+Run
+python manage.py runserver
+Future Scope
+Authentication
+
+CRUD operations
+
+Database integration
+
+⚡ FastAPI – High Performance Backend
+Acts as a lightweight backend service.
+
+Features
+Fast execution
+
+Automatic Swagger UI
+
+Run
+uvicorn main:app --reload
+Swagger:
+
+http://127.0.0.1:8000/docs
+Future Scope
+Image upload endpoint
+
+Face recognition pipeline
+
+PostgreSQL integration
+
+🗄️ PostgreSQL – Database Schema
+Defines relational database structure.
+
+Features
+Structured missing person table
+
+Sample data insertion
+
+Run
+psql -U username -d database_name -f schema.sql
+Future Scope
+Face embedding storage
+
+Indexing for faster search
+
+👁️ OpenCV – Face Detection
+Detects faces from images using classical computer vision.
+
+Features
+Haar Cascade-based face detection
+
+Real-time support
+
+Run
+python face_detection.py
+Algorithm Used
+Haar Cascade Classifier
+
+Future Scope
+CNN-based detectors
+
+Multi-face detection
+
+🧠 DeepFace / FaceNet – Face Recognition
+Verifies whether two face images belong to the same person.
+
+Features
+Pre-trained deep learning models
+
+High accuracy embeddings
+
+Run
+pip install deepface
+python face_verify.py
+Model Used
+FaceNet (128-dimensional embeddings)
+
+
