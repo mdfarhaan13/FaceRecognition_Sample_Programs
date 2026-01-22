@@ -19,7 +19,7 @@ To design a system where:
 
 - ## Project Structure
 
-## FaceRecognition_Sample_Programs/
+FaceRecognition_Sample_Programs/
 │
 ├── python/
 │ └── missing_person.py
@@ -53,7 +53,7 @@ To design a system where:
 
 ### Run
 
- JavaScript – Missing Person Search Logic
+ # JavaScript – Missing Person Search Logic
 Simulates frontend-side search functionality.
 
 Features
@@ -63,12 +63,9 @@ Case-insensitive name search
 
 Run
 node search_missing_person.js
-Future Scope
-API-based search
 
-React integration
 
-🌐 HTML & CSS – User Interface
+# HTML & CSS – User Interface
 Provides a basic UI layout for the system.
 
 Features
@@ -77,14 +74,10 @@ Simple landing page
 Buttons for reporting and searching
 
 Run
-Open index.html in a browser.
+'''bash Open index.html in a browser.
 
-Future Scope
-Responsive design
 
-Form handling
-
-Backend connection
+## Backend connection
 
 ⚛️ React – Frontend Component
 Basic React component for user interaction.
