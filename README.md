@@ -19,7 +19,7 @@ To design a system where:
 
 - ## Project Structure
 
-FaceRecognition_Sample_Programs/
+## FaceRecognition_Sample_Programs/
 │
 ├── python/
 │ └── missing_person.py
