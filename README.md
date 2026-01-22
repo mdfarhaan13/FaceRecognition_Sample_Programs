@@ -1,7 +1,7 @@
 # FaceRecognition_Sample_Programs
 Sample programs of an AI-powered Missing Person Finder system using face recognition, REST APIs, and modern web technologies to match uploaded images against a database.
 
-# 🧠 AI-Powered Missing Person Finder System
+#  AI-Powered Missing Person Finder System
 
 An end-to-end **Missing Person Finder system** that uses **face detection, face recognition, REST APIs, and modern web technologies** to match uploaded images against a database of missing persons.
 
@@ -9,7 +9,7 @@ This repository contains **sample implementations** of all major components requ
 
 ---
 
-## 📌 Project Objective
+##  Project Objective
 
 To design a system where:
 - Users can **report missing persons**
