@@ -19,39 +19,30 @@ To design a system where:
 
 ## Project Structure
 
+''' text
 FaceRecognition_Sample_Programs/
-
-│
 ├── python/
-│ └── missing_person.py
-│
+│   └── missing_person.py
 ├── javascript/
-│ └── search_missing_person.js
-│
+│   └── search_missing_person.js
 ├── html-css/
-│ ├── index.html
-│ └── style.css
-│
+│   ├── index.html
+│   └── style.css
 ├── react/
-│ └── App.js
-│
+│   └── App.js
 ├── django/
-│ └── api/
-|   └──urls.py
-|   └──views.py
-│
+│   └── api/
+│       ├── urls.py
+│       └── views.py
 ├── fastapi/
-│ └── main.py
-│
-├── postgre/
-│ └── schema.sql
-│
+│   └── main.py
+├── postgres/
+│   └── schema.sql
 ├── opencv/
-│ └── face_detection.py
-│
+│   └── face_detection.py
 └── deepface/
-└── face_verify.py
-
+    └── face_verify.py
+'''
 ### Run
 
  ## JavaScript – Missing Person Search Logic
